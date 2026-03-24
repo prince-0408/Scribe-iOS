@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071FB07C2F72B59D00FB0F1E /* AboutTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F725CAE82F6A783700A8C950 /* AboutTab.swift */; };
+		071FB1D72F72B63300FB0F1E /* AboutInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FB1D22F72B63300FB0F1E /* AboutInfoView.swift */; };
+		071FB1D82F72B63300FB0F1E /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FB1D62F72B63300FB0F1E /* ShareSheet.swift */; };
+		071FB1D92F72B63300FB0F1E /* AboutRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FB1D32F72B63300FB0F1E /* AboutRowView.swift */; };
+		071FB1DA2F72B63300FB0F1E /* AboutTipCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FB1D52F72B63300FB0F1E /* AboutTipCardView.swift */; };
+		071FB1DB2F72B63300FB0F1E /* AboutSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FB1D42F72B63300FB0F1E /* AboutSectionView.swift */; };
 		140158992A430DD000D14E52 /* ThirdPartyLicense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140158982A430DD000D14E52 /* ThirdPartyLicense.swift */; };
 		1401589B2A45A07200D14E52 /* WikimediaAndScribe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1401589A2A45A07200D14E52 /* WikimediaAndScribe.swift */; };
 		140158A22A4EDB2200D14E52 /* TableViewTemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140158A12A4EDB2200D14E52 /* TableViewTemplateViewController.swift */; };
@@ -992,6 +998,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		071FB1D22F72B63300FB0F1E /* AboutInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutInfoView.swift; sourceTree = "<group>"; };
+		071FB1D32F72B63300FB0F1E /* AboutRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutRowView.swift; sourceTree = "<group>"; };
+		071FB1D42F72B63300FB0F1E /* AboutSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSectionView.swift; sourceTree = "<group>"; };
+		071FB1D52F72B63300FB0F1E /* AboutTipCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTipCardView.swift; sourceTree = "<group>"; };
+		071FB1D62F72B63300FB0F1E /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 		140158982A430DD000D14E52 /* ThirdPartyLicense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPartyLicense.swift; sourceTree = "<group>"; };
 		1401589A2A45A07200D14E52 /* WikimediaAndScribe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikimediaAndScribe.swift; sourceTree = "<group>"; };
 		140158A12A4EDB2200D14E52 /* TableViewTemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTemplateViewController.swift; sourceTree = "<group>"; };
@@ -2191,6 +2202,11 @@
 		F725CAED2F6A79DC00A8C950 /* About */ = {
 			isa = PBXGroup;
 			children = (
+				071FB1D22F72B63300FB0F1E /* AboutInfoView.swift */,
+				071FB1D32F72B63300FB0F1E /* AboutRowView.swift */,
+				071FB1D42F72B63300FB0F1E /* AboutSectionView.swift */,
+				071FB1D52F72B63300FB0F1E /* AboutTipCardView.swift */,
+				071FB1D62F72B63300FB0F1E /* ShareSheet.swift */,
 				F725CAE82F6A783700A8C950 /* AboutTab.swift */,
 			);
 			path = About;
@@ -3723,9 +3739,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071FB07C2F72B59D00FB0F1E /* AboutTab.swift in Sources */,
 				F7A17EBD2F6A8C230040B09B /* ContentView.swift in Sources */,
 				F7A17EBC2F6A8C200040B09B /* ConjugateTab.swift in Sources */,
 				F7A17EBB2F6A8C1C0040B09B /* AboutTab.swift in Sources */,
+				071FB1D72F72B63300FB0F1E /* AboutInfoView.swift in Sources */,
+				071FB1D82F72B63300FB0F1E /* ShareSheet.swift in Sources */,
+				071FB1D92F72B63300FB0F1E /* AboutRowView.swift in Sources */,
+				071FB1DA2F72B63300FB0F1E /* AboutTipCardView.swift in Sources */,
+				071FB1DB2F72B63300FB0F1E /* AboutSectionView.swift in Sources */,
 				F7A17EBA2F6A8C180040B09B /* AppNavigation.swift in Sources */,
 				F725CADE2F6A72BC00A8C950 /* ConjugateApp.swift in Sources */,
 				F725CAE72F6A783400A8C950 /* SettingsTab.swift in Sources */,
