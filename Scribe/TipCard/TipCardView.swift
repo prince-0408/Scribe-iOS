@@ -98,17 +98,4 @@ struct SettingsTipCardView: View {
     }
 }
 
-struct AboutTipCardView: View {
-    @AppStorage("aboutTipCardState", store: .standard) var aboutTipCardState: Bool = true
 
-    var body: some View {
-        TipCardView(
-            infoText: NSLocalizedString(
-                "i18n.app.about.app_hint_tooltip",
-                value: "Here's where you can learn more about Scribe and its community.",
-                comment: ""
-            ),
-            tipCardState: $aboutTipCardState
-        )
-    }
-}

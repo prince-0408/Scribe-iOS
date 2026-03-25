@@ -19,7 +19,7 @@ final class AboutViewController: BaseTableViewController {
         return userDefault.object(forKey: "aboutTipCardState") as? Bool ?? true
     }()
 
-    private var tipHostingController: UIHostingController<AboutTipCardView>!
+    private var tipHostingController: UIHostingController<TipCardView>!
     private var tableViewOffset: CGFloat?
     private let cornerRadius: CGFloat = 12
 
@@ -252,8 +252,17 @@ extension AboutViewController: MFMailComposeViewControllerDelegate {
 
 extension AboutViewController {
     private func showTipCardView() {
-        let overlayView = AboutTipCardView(
-            aboutTipCardState: aboutTipCardState
+        var tipCardState = aboutTipCardState
+        let overlayView = TipCardView(
+            infoText: NSLocalizedString(
+                "i18n.app.about.app_hint_tooltip",
+                value: "Here's where you can learn more about Scribe and its community.",
+                comment: ""
+            ),
+            tipCardState: Binding(
+                get: { tipCardState },
+                set: { tipCardState = $0 }
+            )
         )
 
         let hostingController = UIHostingController(rootView: overlayView)

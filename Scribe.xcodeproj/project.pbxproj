@@ -13,6 +13,13 @@
 		071FB1D92F72B63300FB0F1E /* AboutRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FB1D32F72B63300FB0F1E /* AboutRowView.swift */; };
 		071FB1DA2F72B63300FB0F1E /* AboutTipCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FB1D52F72B63300FB0F1E /* AboutTipCardView.swift */; };
 		071FB1DB2F72B63300FB0F1E /* AboutSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FB1D42F72B63300FB0F1E /* AboutSectionView.swift */; };
+		075DA45A2F73D47E001DF157 /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DA4592F73D47E001DF157 /* AppNavigation.swift */; };
+		075DA4632F73D49A001DF157 /* AboutTipCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DA45F2F73D49A001DF157 /* AboutTipCardView.swift */; };
+		075DA4642F73D49A001DF157 /* AboutSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DA45D2F73D49A001DF157 /* AboutSectionView.swift */; };
+		075DA4652F73D49A001DF157 /* AboutTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DA45E2F73D49A001DF157 /* AboutTab.swift */; };
+		075DA4662F73D49A001DF157 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DA4602F73D49A001DF157 /* ShareSheet.swift */; };
+		075DA4672F73D49A001DF157 /* AboutRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DA45C2F73D49A001DF157 /* AboutRowView.swift */; };
+		075DA4682F73D49A001DF157 /* AboutInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DA45B2F73D49A001DF157 /* AboutInfoView.swift */; };
 		140158992A430DD000D14E52 /* ThirdPartyLicense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140158982A430DD000D14E52 /* ThirdPartyLicense.swift */; };
 		1401589B2A45A07200D14E52 /* WikimediaAndScribe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1401589A2A45A07200D14E52 /* WikimediaAndScribe.swift */; };
 		140158A22A4EDB2200D14E52 /* TableViewTemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140158A12A4EDB2200D14E52 /* TableViewTemplateViewController.swift */; };
@@ -679,7 +686,6 @@
 		E98034DE2F45AE1F006C1CDC /* LanguageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F727382F4468960060B92D /* LanguageData.swift */; };
 		E98034DF2F45AE1F006C1CDC /* LanguageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F727382F4468960060B92D /* LanguageData.swift */; };
 		E98034E42F45B88C006C1CDC /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98034E32F45B88C006C1CDC /* ToastView.swift */; };
-		E98034E52F45B88C006C1CDC /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98034E32F45B88C006C1CDC /* ToastView.swift */; };
 		E996495A2E98A12100200F53 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = E99649592E98A12100200F53 /* GRDB */; };
 		E996495B2E98A31B00200F53 /* KeyboardProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198369CB2C7980BA00C1B583 /* KeyboardProvider.swift */; };
 		E996495C2E98A32900200F53 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D190B2592742565500705659 /* KeyboardViewController.swift */; };
@@ -745,7 +751,6 @@
 		E9ED93872F2A3C45008D7451 /* DynamicConjugationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED937C2F2A3C32008D7451 /* DynamicConjugationViewController.swift */; };
 		E9ED93882F2A3C45008D7451 /* DynamicConjugationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED937C2F2A3C32008D7451 /* DynamicConjugationViewController.swift */; };
 		E9ED93892F2A3C45008D7451 /* DynamicConjugationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED937C2F2A3C32008D7451 /* DynamicConjugationViewController.swift */; };
-		E9ED938A2F2A3C45008D7451 /* DynamicConjugationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED937C2F2A3C32008D7451 /* DynamicConjugationViewController.swift */; };
 		E9F7273D2F45A6CE0060B92D /* LanguageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F727382F4468960060B92D /* LanguageData.swift */; };
 		E9F7273E2F45A6DE0060B92D /* LanguageDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F7273C2F45856C0060B92D /* LanguageDataService.swift */; };
 		E9F7273F2F45A6E60060B92D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F7273A2F457A7E0060B92D /* APIClient.swift */; };
@@ -1021,6 +1026,13 @@
 		071FB1D42F72B63300FB0F1E /* AboutSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSectionView.swift; sourceTree = "<group>"; };
 		071FB1D52F72B63300FB0F1E /* AboutTipCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTipCardView.swift; sourceTree = "<group>"; };
 		071FB1D62F72B63300FB0F1E /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		075DA4592F73D47E001DF157 /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
+		075DA45B2F73D49A001DF157 /* AboutInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutInfoView.swift; sourceTree = "<group>"; };
+		075DA45C2F73D49A001DF157 /* AboutRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutRowView.swift; sourceTree = "<group>"; };
+		075DA45D2F73D49A001DF157 /* AboutSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSectionView.swift; sourceTree = "<group>"; };
+		075DA45E2F73D49A001DF157 /* AboutTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTab.swift; sourceTree = "<group>"; };
+		075DA45F2F73D49A001DF157 /* AboutTipCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTipCardView.swift; sourceTree = "<group>"; };
+		075DA4602F73D49A001DF157 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 		140158982A430DD000D14E52 /* ThirdPartyLicense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPartyLicense.swift; sourceTree = "<group>"; };
 		1401589A2A45A07200D14E52 /* WikimediaAndScribe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikimediaAndScribe.swift; sourceTree = "<group>"; };
 		140158A12A4EDB2200D14E52 /* TableViewTemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTemplateViewController.swift; sourceTree = "<group>"; };
@@ -1374,7 +1386,6 @@
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E943457E2F05638700DFDB20 /* Button */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (F7A17EA92F6A8BC90040B09B /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Button; sourceTree = "<group>"; };
-		E98E73BE2F20D8AA005EEDA3 /* Data */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E98E74352F20EA5E005EEDA3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E98E74362F20EA5E005EEDA3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E98E74372F20EA5E005EEDA3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E98E74382F20EA5E005EEDA3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E98E74392F20EA5E005EEDA3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E98E743A2F20EA5E005EEDA3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E98E743B2F20EA5E005EEDA3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E98E743C2F20EA5E005EEDA3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E98E743D2F20EA5E005EEDA3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E98E743E2F20EA5E005EEDA3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E98E743F2F20EA5E005EEDA3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E98E74402F20EA5E005EEDA3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Data; sourceTree = "<group>"; };
 		E98E73BF2F20D8C3005EEDA3 /* DataContracts */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = DataContracts; sourceTree = "<group>"; };
 		E9B89DCD2F226757003E396F /* DataManager */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E9B89DCE2F22676B003E396F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E9B89DCF2F22676B003E396F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E9B89DD02F22676B003E396F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E9B89DD12F22676B003E396F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E9B89DD22F22676B003E396F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E9B89DD32F22676B003E396F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E9B89DD42F22676B003E396F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E9B89DD52F22676B003E396F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E9B89DD62F22676B003E396F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E9B89DD72F22676B003E396F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E9B89DD82F22676B003E396F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E9B89DD92F22676B003E396F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E9B89DDA2F22676B003E396F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = DataManager; sourceTree = "<group>"; };
 		E9DADB332EF3CF9B00702783 /* ConfirmDialog */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (F7A17EAA2F6A8BE30040B09B /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ConfirmDialog; sourceTree = "<group>"; };
@@ -1532,6 +1543,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		075DA4612F73D49A001DF157 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				075DA45B2F73D49A001DF157 /* AboutInfoView.swift */,
+				075DA45C2F73D49A001DF157 /* AboutRowView.swift */,
+				075DA45D2F73D49A001DF157 /* AboutSectionView.swift */,
+				075DA45E2F73D49A001DF157 /* AboutTab.swift */,
+				075DA45F2F73D49A001DF157 /* AboutTipCardView.swift */,
+				075DA4602F73D49A001DF157 /* ShareSheet.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		075DA4622F73D49A001DF157 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				075DA4612F73D49A001DF157 /* About */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
 		1406B7852A2DFCBE001DF45B /* InfoChildTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -1965,7 +1997,6 @@
 		D1FECBC9270E1A1500C8BC60 /* Keyboards */ = {
 			isa = PBXGroup;
 			children = (
-				E90EF8AD2F485B91007D967C /* Data */,
 				D190B2452741B1FE00705659 /* KeyboardsBase */,
 				D1CCA15B2742B9F700902744 /* LanguageKeyboards */,
 				EDC364682AE408F20001E456 /* InterfaceConstants.swift */,
@@ -2033,6 +2064,8 @@
 		EDB4601F2B03B3B400BEA967 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				075DA4622F73D49A001DF157 /* Tabs */,
+				075DA4592F73D47E001DF157 /* AppNavigation.swift */,
 				5A68DA442CDE7D2900897FAD /* Cells */,
 				EDB460202B03B3E400BEA967 /* BaseTableViewController.swift */,
 				5A68DA3F2CDE7B7900897FAD /* SelectionViewTemplateViewController.swift */,
@@ -2208,7 +2241,6 @@
 				5A8FFB6D2C5A9D9C00F4B571 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E90EF8AD2F485B91007D967C /* Data */,
 				E943457E2F05638700DFDB20 /* Button */,
 				E9DADB332EF3CF9B00702783 /* ConfirmDialog */,
 			);
@@ -2236,7 +2268,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E90EF8AD2F485B91007D967C /* Data */,
 				E98E73BF2F20D8C3005EEDA3 /* DataContracts */,
 			);
 			name = German;
@@ -2262,7 +2293,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E90EF8AD2F485B91007D967C /* Data */,
 				E98E73BF2F20D8C3005EEDA3 /* DataContracts */,
 			);
 			name = French;
@@ -2288,7 +2318,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E90EF8AD2F485B91007D967C /* Data */,
 				E98E73BF2F20D8C3005EEDA3 /* DataContracts */,
 			);
 			name = Portuguese;
@@ -2332,7 +2361,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E90EF8AD2F485B91007D967C /* Data */,
 				E98E73BF2F20D8C3005EEDA3 /* DataContracts */,
 			);
 			name = Spanish;
@@ -2358,7 +2386,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E90EF8AD2F485B91007D967C /* Data */,
 				E98E73BF2F20D8C3005EEDA3 /* DataContracts */,
 			);
 			name = Russian;
@@ -2384,7 +2411,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E90EF8AD2F485B91007D967C /* Data */,
 				E98E73BF2F20D8C3005EEDA3 /* DataContracts */,
 			);
 			name = Swedish;
@@ -2410,7 +2436,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E90EF8AD2F485B91007D967C /* Data */,
 				E98E73BF2F20D8C3005EEDA3 /* DataContracts */,
 			);
 			name = Norwegian;
@@ -2436,7 +2461,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E90EF8AD2F485B91007D967C /* Data */,
 				E98E73BF2F20D8C3005EEDA3 /* DataContracts */,
 			);
 			name = English;
@@ -2462,7 +2486,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E90EF8AD2F485B91007D967C /* Data */,
 				E98E73BF2F20D8C3005EEDA3 /* DataContracts */,
 			);
 			name = Danish;
@@ -2488,7 +2511,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E90EF8AD2F485B91007D967C /* Data */,
 				E98E73BF2F20D8C3005EEDA3 /* DataContracts */,
 			);
 			name = Hebrew;
@@ -2514,7 +2536,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E90EF8AD2F485B91007D967C /* Data */,
 				E98E73BF2F20D8C3005EEDA3 /* DataContracts */,
 			);
 			name = Italian;
@@ -2540,7 +2561,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E90EF8AD2F485B91007D967C /* Data */,
 				E98E73BF2F20D8C3005EEDA3 /* DataContracts */,
 			);
 			name = Indonesian;
@@ -2580,7 +2600,6 @@
 				F786BAC92F1E8F70003F7505 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E90EF8AD2F485B91007D967C /* Data */,
 				E943457E2F05638700DFDB20 /* Button */,
 				E9DADB332EF3CF9B00702783 /* ConfirmDialog */,
 			);
@@ -2952,6 +2971,12 @@
 				D17193D827AECA450038660B /* PTInterfaceVariables.swift in Sources */,
 				D12EB9C32C81C10900181765 /* HEInterfaceVariables.swift in Sources */,
 				D17193C427AEAD7D0038660B /* AppStyling.swift in Sources */,
+				075DA4632F73D49A001DF157 /* AboutTipCardView.swift in Sources */,
+				075DA4642F73D49A001DF157 /* AboutSectionView.swift in Sources */,
+				075DA4652F73D49A001DF157 /* AboutTab.swift in Sources */,
+				075DA4662F73D49A001DF157 /* ShareSheet.swift in Sources */,
+				075DA4672F73D49A001DF157 /* AboutRowView.swift in Sources */,
+				075DA4682F73D49A001DF157 /* AboutInfoView.swift in Sources */,
 				D111E9AA27AFE78600746F92 /* Plural.swift in Sources */,
 				E97E65142F2CDD5B0070810A /* ESInterfaceVariables.swift in Sources */,
 				D1F0367227AAE12200CD7921 /* InterfaceVariables.swift in Sources */,
@@ -2967,6 +2992,7 @@
 				E9FEE6CB2EF14351003A9266 /* WrapperCell.swift in Sources */,
 				1401589B2A45A07200D14E52 /* WikimediaAndScribe.swift in Sources */,
 				3045396B293B9DC9003AE55B /* ToolTipViewDatasourceable.swift in Sources */,
+				075DA45A2F73D47E001DF157 /* AppNavigation.swift in Sources */,
 				D1B071A027C6A1AA00FD7DBD /* KeyAltChars.swift in Sources */,
 				E97E651C2F2CDEC50070810A /* ESCommandVariables.swift in Sources */,
 				D1CDED812A85A12400098546 /* NBInterfaceVariables.swift in Sources */,
@@ -3648,76 +3674,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				071FB07C2F72B59D00FB0F1E /* AboutTab.swift in Sources */,
-				E97E65172F2CDD730070810A /* ESInterfaceVariables.swift in Sources */,
-				F786BAD42F1E8F70003F7505 /* ThirdPartyLicense.swift in Sources */,
-				F786BAD52F1E8F70003F7505 /* (null) in Sources */,
-				F786BAD62F1E8F70003F7505 /* AppTextStyling.swift in Sources */,
-				E91980BE2F2F540A00B5852F /* NavigationStructure.swift in Sources */,
-				F786BAD72F1E8F70003F7505 /* ScribeColor.swift in Sources */,
-				F786BAD82F1E8F70003F7505 /* Conjugate.swift in Sources */,
-				F786BAD92F1E8F70003F7505 /* SettingsViewController.swift in Sources */,
-				F786BADA2F1E8F70003F7505 /* AboutTableData.swift in Sources */,
-				F786BADC2F1E8F70003F7505 /* IDInterfaceVariables.swift in Sources */,
-				F786BADE2F1E8F70003F7505 /* ToolTipViewDatasource.swift in Sources */,
-				F786BADF2F1E8F70003F7505 /* Translate.swift in Sources */,
-				F786BAE32F1E8F70003F7505 /* ScribeKey.swift in Sources */,
-				F786BAE42F1E8F70003F7505 /* AppExtensions.swift in Sources */,
-				F786BAE62F1E8F70003F7505 /* FR-AZERTYInterfaceVariables.swift in Sources */,
-				F786BAE72F1E8F70003F7505 /* ENInterfaceVariables.swift in Sources */,
-				F786BAE82F1E8F70003F7505 /* InstallationVC.swift in Sources */,
-				F786BAE92F1E8F70003F7505 /* DEInterfaceVariables.swift in Sources */,
-				F786BAEA2F1E8F70003F7505 /* SettingsTableData.swift in Sources */,
-				F786BAEB2F1E8F70003F7505 /* InformationScreenVC.swift in Sources */,
-				F786BAEC2F1E8F70003F7505 /* InfoChildTableViewCell.swift in Sources */,
-				F786BAED2F1E8F70003F7505 /* AppUISymbols.swift in Sources */,
-				F786BAEE2F1E8F70003F7505 /* KeyboardViewController.swift in Sources */,
-				F786BAEF2F1E8F70003F7505 /* InstallationDownload.swift in Sources */,
-				F786BAF02F1E8F70003F7505 /* UIEdgeInsetsExtensions.swift in Sources */,
-				F786BAF12F1E8F70003F7505 /* (null) in Sources */,
-				F786BAF22F1E8F70003F7505 /* KeyboardStyling.swift in Sources */,
-				F786BAF32F1E8F70003F7505 /* Annotate.swift in Sources */,
-				F786BAF42F1E8F70003F7505 /* KeyboardBuilder.swift in Sources */,
-				F786BAF52F1E8F70003F7505 /* KeyboardProvider.swift in Sources */,
-				F786BAF62F1E8F70003F7505 /* UIColor+ScribeColors.swift in Sources */,
-				F786BAF72F1E8F70003F7505 /* SVInterfaceVariables.swift in Sources */,
-				F786BAF92F1E8F70003F7505 /* TableViewTemplateViewController.swift in Sources */,
-				F786BAFB2F1E8F70003F7505 /* AppDelegate.swift in Sources */,
-				F786BAFC2F1E8F70003F7505 /* ToolTipView.swift in Sources */,
-				F786BAFD2F1E8F70003F7505 /* ToolTipViewTheme.swift in Sources */,
-				F786BAFE2F1E8F70003F7505 /* RadioTableViewCell.swift in Sources */,
-				F786BAFF2F1E8F70003F7505 /* CommandVariables.swift in Sources */,
-				F786BB012F1E8F70003F7505 /* Utilities.swift in Sources */,
-				F786BB022F1E8F70003F7505 /* BaseTableViewController.swift in Sources */,
-				F786BB032F1E8F70003F7505 /* DAInterfaceVariables.swift in Sources */,
-				F786BB052F1E8F70003F7505 /* UIDeviceExtensions.swift in Sources */,
-				E97E65222F2CDEC50070810A /* ESCommandVariables.swift in Sources */,
-				F786BB062F1E8F70003F7505 /* TipCardView.swift in Sources */,
-				F786BB072F1E8F70003F7505 /* InformationToolTipData.swift in Sources */,
-				F786BB082F1E8F70003F7505 /* ToolTipViewUpdatable.swift in Sources */,
-				F786BB092F1E8F70003F7505 /* RUInterfaceVariables.swift in Sources */,
-				F786BB0A2F1E8F70003F7505 /* ITInterfaceVariables.swift in Sources */,
-				F786BB0B2F1E8F70003F7505 /* PTInterfaceVariables.swift in Sources */,
-				F786BB0C2F1E8F70003F7505 /* HEInterfaceVariables.swift in Sources */,
-				F786BB0D2F1E8F70003F7505 /* AppStyling.swift in Sources */,
-				F786BB0E2F1E8F70003F7505 /* Plural.swift in Sources */,
-				F786BB0F2F1E8F70003F7505 /* InterfaceVariables.swift in Sources */,
-				F786BB102F1E8F70003F7505 /* CommandBar.swift in Sources */,
-				F786BB122F1E8F70003F7505 /* ViewThemeable.swift in Sources */,
-				F786BB132F1E8F70003F7505 /* ColorVariables.swift in Sources */,
-				F786BB152F1E8F70003F7505 /* AboutTableViewCell.swift in Sources */,
-				F786BB162F1E8F70003F7505 /* InstallScreen.swift in Sources */,
-				F786BB182F1E8F70003F7505 /* KeyboardKeys.swift in Sources */,
-				F786BB192F1E8F70003F7505 /* ParentTableCellModel.swift in Sources */,
-				F786BB1A2F1E8F70003F7505 /* WrapperCell.swift in Sources */,
-				F786BB1B2F1E8F70003F7505 /* WikimediaAndScribe.swift in Sources */,
-				F786BB1C2F1E8F70003F7505 /* ToolTipViewDatasourceable.swift in Sources */,
-				F786BB1D2F1E8F70003F7505 /* KeyAltChars.swift in Sources */,
-				F786BB1E2F1E8F70003F7505 /* NBInterfaceVariables.swift in Sources */,
-				F786BB1F2F1E8F70003F7505 /* FR-QWERTYInterfaceVariables.swift in Sources */,
-				F786BB202F1E8F70003F7505 /* KeyAnimation.swift in Sources */,
-				F786BB212F1E8F70003F7505 /* AboutViewController.swift in Sources */,
-				F786BB222F1E8F70003F7505 /* Extensions.swift in Sources */,
-				F786BB232F1E8F70003F7505 /* InterfaceConstants.swift in Sources */,
 				F7A17EBD2F6A8C230040B09B /* ContentView.swift in Sources */,
 				F7A17EBC2F6A8C200040B09B /* ConjugateTab.swift in Sources */,
 				F7A17EBB2F6A8C1C0040B09B /* AboutTab.swift in Sources */,

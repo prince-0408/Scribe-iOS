@@ -5,6 +5,7 @@
  */
 
 import CoreData
+import SwiftUI
 import UIKit
 
 @UIApplicationMain
@@ -32,7 +33,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             UITabBar.appearance().barTintColor = .white // default non-transparent color
         }
 
+        swapAboutTabToSwiftUI()
+
         return true
+    }
+
+    /// Replaces the storyboard-based About tab with the SwiftUI AboutTab.
+    private func swapAboutTabToSwiftUI() {
+        guard
+            let tabBarController = window?.rootViewController as? UITabBarController,
+            let viewControllers = tabBarController.viewControllers
+        else { return }
+
+        let aboutTabIndex = viewControllers.firstIndex(where: {
+            ($0 as? UINavigationController)?.tabBarItem.tag == 2
+        })
+
+        guard let index = aboutTabIndex,
+              let navController = viewControllers[index] as? UINavigationController
+        else { return }
+
+        let hostingController = UIHostingController(rootView: AboutTab())
+        hostingController.tabBarItem = navController.tabBarItem
+        tabBarController.viewControllers?[index] = hostingController
     }
 
     func applicationWillResignActive(_: UIApplication) {
